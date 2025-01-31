@@ -2,6 +2,8 @@
 title: "Introduction to Workflow Automation & Power Automate"
 author: Quang Phan
 theme: default
+# themeConfig:
+#   logoHeader: '/logo.webp'
 ---
 
 # Introduction to Workflow Automation
