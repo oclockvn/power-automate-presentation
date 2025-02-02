@@ -2,126 +2,220 @@
 title: "Introduction to Workflow Automation & Power Automate"
 author: Quang Phan
 theme: default
-# themeConfig:
-#   logoHeader: '/logo.webp'
+layout: cover
+background: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
 # Introduction to Workflow Automation
+Transform Your Business Through Automation
 
 ---
+layout: two-cols
+---
 
-## What is Workflow Automation?
+# What is Workflow Automation?
 
-- **Definition**: 
-  - Workflow automation is the process of automating repetitive tasks and processes to improve efficiency, reduce errors, and save time.
-  
-- **What can it do?**
-  - Automate manual tasks (e.g., sending emails, data entry)
-  - Integrate different systems and applications
-  - Streamline business processes
-  
-- **Use Cases**:
-  - Sending automated emails
-  - Data synchronization between apps
-  - Employee onboarding/offboarding
-  - Generating reports
-  - Approval workflows
+::right::
 
+<div class="ml-4">
+<v-clicks>
+
+- 🤖 Automates repetitive tasks
+- ⚡ Improves efficiency
+- 🎯 Reduces human errors
+- 💰 Saves costs
+- ⏱️ Increases productivity
+
+</v-clicks>
+</div>
+
+---
+layout: default
+---
+
+# Real-World Examples
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+
+## HR Processes
+- Employee onboarding
+- Leave approval workflows
+- Performance review automation
+- Document generation
+
+</div>
+<div>
+
+## Marketing & Sales
+- Lead nurturing
+- Social media posting
+- Email campaigns
+- Customer data synchronization
+
+</div>
+</div>
+
+---
+layout: section
 ---
 
 # Introducing Power Automate
+Microsoft's Solution for Workflow Automation
 
 ---
-
-## What is Power Automate?
-
-- **Overview**:
-  - Power Automate (formerly Microsoft Flow) is a cloud-based service provided by Microsoft that allows users to create automated workflows between apps and services.
-  
-- **Key Features**:
-  - Integration with Microsoft 365, Dynamics 365, and other third-party apps
-  - Pre-built templates for common workflows
-  - Drag-and-drop interface for easy automation
-  - Supports both cloud and desktop flows
-
-- **Benefits**:
-  - No-code/low-code solution
-  - Easy to integrate with Microsoft ecosystem
-  - Scalable for enterprise use
-
+layout: two-cols
 ---
 
-# Demo: Sending Emails Using Power Automate
+# Power Automate Features
+
+<v-clicks>
+
+- 🔄 500+ pre-built connectors
+- 📱 Mobile and desktop apps
+- 🤖 AI-powered automation
+- 🔒 Enterprise-grade security
+- 💻 Low-code/no-code platform
+
+</v-clicks>
+
+::right::
+
+# Key Benefits
+
+<v-clicks>
+
+- 🚀 Quick implementation
+- 💡 Easy to learn
+- 🔄 Microsoft 365 integration
+- 📊 Rich analytics
+- 🛠️ Customizable solutions
+
+</v-clicks>
 
 ---
-
-## Scenario: Send Monthly Email to Employees
-
-1. **Objective**:
-   - Send an email to employees listed in a Google Sheet on the first day of every month.
-
-2. **Steps**:
-   - **Step 1**: Connect Power Automate to Google Sheets.
-   - **Step 2**: Create a flow that triggers on the first day of each month.
-   - **Step 3**: Loop through the list of employees in the Google Sheet.
-   - **Step 4**: Send an email to each employee using Outlook or Gmail.
-
+layout: default
 ---
 
-## Demo Walkthrough
+# Live Demo: Automated Email Workflow
 
-1. **Trigger**: 
-   - Use the "Recurrence" trigger to set the flow to run on the first day of every month.
+## Scenario: Monthly Employee Report Distribution
 
-2. **Action 1**: 
-   - Use the "List rows present in a table" action to fetch employee data from Google Sheets.
+<div class="grid grid-cols-2 gap-4 mt-4">
+<div>
 
-3. **Action 2**: 
-   - Use the "Apply to each" loop to iterate through each employee.
+### Components Used
+- Google Sheets (Data source)
+- Power Automate (Workflow)
+- Outlook/Gmail (Email delivery)
 
-4. **Action 3**: 
-   - Use the "Send an email (V2)" action to send an email to each employee.
+</div>
+<div>
 
----
+### Business Value
+- Saves 2-3 hours monthly
+- Eliminates manual errors
+- Ensures consistent delivery
+- Improves employee satisfaction
 
-# Alternatives to Power Automate
-
----
-
-## Other Workflow Automation Tools
-
-1. **Make (formerly Integromat)**:
-   - **Overview**: A powerful automation tool with a visual builder.
-   - **Pros**: Highly customizable, supports complex workflows.
-   - **Cons**: Can be expensive for large-scale use.
-
-2. **n8n**:
-   - **Overview**: An open-source workflow automation tool.
-   - **Pros**: Self-hosted, highly flexible, and free for small projects.
-   - **Cons**: Requires more technical knowledge to set up.
-
-3. **Zapier**:
-   - **Overview**: A popular no-code automation tool.
-   - **Pros**: Easy to use, integrates with thousands of apps.
-   - **Cons**: Limited customization compared to Make or n8n.
+</div>
+</div>
 
 ---
-
-# Conclusion
-
+layout: default
 ---
 
-## Why Automate Workflows?
+# Step-by-Step Demo
 
-- **Efficiency**: Save time by automating repetitive tasks.
-- **Accuracy**: Reduce human error in manual processes.
-- **Scalability**: Easily scale workflows as your business grows.
+<v-clicks>
+
+1. **Configure Trigger** 
+   - Set monthly schedule
+   - Define conditions
+
+2. **Connect Data Source**
+   - Link Google Sheets
+   - Set up data mapping
+
+3. **Build Email Template**
+   - Design dynamic content
+   - Add personalization
+
+4. **Test & Deploy**
+   - Run test iterations
+   - Monitor performance
+
+</v-clicks>
 
 ---
+layout: section
+---
 
-## Questions?
-
-Thank you for your attention! Feel free to ask any questions about workflow automation or Power Automate.
+# Alternative Solutions
+Exploring Other Automation Tools
 
 ---
+layout: two-cols
+---
+
+# Make (Integromat)
+
+<v-clicks>
+
+- Visual workflow builder
+- Advanced scheduling
+- Complex scenarios
+- Detailed logging
+- Pay-per-operation
+
+</v-clicks>
+
+::middle::
+
+# n8n
+
+<v-clicks>
+
+- Open-source
+- Self-hosted option
+- Node-based flows
+- Custom functions
+- Free for basic use
+
+</v-clicks>
+
+::right::
+
+# Zapier
+
+<v-clicks>
+
+- User-friendly
+- 3000+ integrations
+- Quick setup
+- Templates gallery
+- Multi-step zaps
+
+</v-clicks>
+
+---
+layout: fact
+---
+
+# ROI of Workflow Automation
+
+Companies save an average of 
+<span class="text-6xl font-bold text-green-500">15-30%</span> 
+of employee time through automation
+
+---
+layout: end
+---
+
+# Thank You!
+
+## Questions & Discussion
+
+Contact: [quang@spiderbox.design](mailto:quang@spiderbox.design)
+GitHub: [@oclockvn](https://github.com/oclockvn)
 
