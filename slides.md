@@ -7,7 +7,7 @@ background: https://source.unsplash.com/collection/94734566/1920x1080
 ---
 
 # Introduction to Workflow Automation
-Transform Your Business Through Automation
+quang@spiderbox.design
 
 ---
 layout: two-cols
@@ -15,19 +15,21 @@ layout: two-cols
 
 # What is Workflow Automation?
 
+<v-click>
+Workflow is a series of activities needed to complete a task. Workflow automation shifts the performance of those activities from humans to a software program.
+</v-click>
+
 ::right::
 
-<div class="ml-4">
 <v-clicks>
 
-- 🤖 Automates repetitive tasks
-- ⚡ Improves efficiency
-- 🎯 Reduces human errors
-- 💰 Saves costs
-- ⏱️ Increases productivity
+- 🤖 Automates repetitive tasks: Reduces manual effort.
+- ⚡ Streamlines processes: Improves efficiency and speed.
+- 🎯 Reduces errors: Minimizes human mistakes.
+- 🔗 Integrates systems: Connects different applications.
+- ⏱️ Improves collaboration: Facilitates smoother teamwork.
 
 </v-clicks>
-</div>
 
 ---
 layout: default
@@ -35,26 +37,17 @@ layout: default
 
 # Real-World Examples
 
-<div class="grid grid-cols-2 gap-4">
-<div>
+<v-clicks>
 
-## HR Processes
-- Employee onboarding
-- Leave approval workflows
-- Performance review automation
-- Document generation
+- 📊 Automatically generate and send invoices at the end of the month
+- 📧 Send daily / weekly / monthly email update, birthday reminder or salary notice
+- 📱 Post company updates across multiple social media platforms simultaneously
+- 📅 Schedule and send meeting reminders with relevant documents attached
+- 📈 Generate weekly performance reports from various data sources
+- 🔔 Send notifications when project milestones are reached
+- 📝 Recruitment and Onboarding process
 
-</div>
-<div>
-
-## Marketing & Sales
-- Lead nurturing
-- Social media posting
-- Email campaigns
-- Customer data synchronization
-
-</div>
-</div>
+</v-clicks>
 
 ---
 layout: section
@@ -92,130 +85,95 @@ layout: two-cols
 - 🛠️ Customizable solutions
 
 </v-clicks>
-
----
-layout: default
----
-
-# Live Demo: Automated Email Workflow
-
-## Scenario: Monthly Employee Report Distribution
-
-<div class="grid grid-cols-2 gap-4 mt-4">
-<div>
-
-### Components Used
-- Google Sheets (Data source)
-- Power Automate (Workflow)
-- Outlook/Gmail (Email delivery)
-
-</div>
-<div>
-
-### Business Value
-- Saves 2-3 hours monthly
-- Eliminates manual errors
-- Ensures consistent delivery
-- Improves employee satisfaction
-
-</div>
-</div>
-
----
-layout: default
----
-
-# Step-by-Step Demo
-
-<v-clicks>
-
-1. **Configure Trigger** 
-   - Set monthly schedule
-   - Define conditions
-
-2. **Connect Data Source**
-   - Link Google Sheets
-   - Set up data mapping
-
-3. **Build Email Template**
-   - Design dynamic content
-   - Add personalization
-
-4. **Test & Deploy**
-   - Run test iterations
-   - Monitor performance
-
-</v-clicks>
-
----
-layout: section
----
-
-# Alternative Solutions
-Exploring Other Automation Tools
-
+ 
 ---
 layout: two-cols
 ---
 
-# Make (Integromat)
+# Power Automate Cloud
 
 <v-clicks>
 
-- Visual workflow builder
-- Advanced scheduling
-- Complex scenarios
-- Detailed logging
-- Pay-per-operation
-
-</v-clicks>
-
-::middle::
-
-# n8n
-
-<v-clicks>
-
-- Open-source
-- Self-hosted option
-- Node-based flows
-- Custom functions
-- Free for basic use
+- Web based applications with tons of pre-built connectors.
+- Multiple trigger types: time-based, event-based, data-based, etc.
+- Copilot available.
 
 </v-clicks>
 
 ::right::
 
-# Zapier
+![Power Automate Cloud](./images/pa-cloud.png)
+
+---
+layout: two-cols
+---
+
+# Power Automate Desktop
 
 <v-clicks>
 
-- User-friendly
-- 3000+ integrations
-- Quick setup
-- Templates gallery
-- Multi-step zaps
+- Desktop application with limited pre-built connectors.
+- UI automation available.
+- File system access available.
+
+</v-clicks>
+
+::right::
+
+![dashboard](./images/pa-startup.png)
+
+---
+layout: image-right
+image: ./images/action.png
+---
+
+# Actions
+
+<v-clicks>
+
+- Actions are the building blocks of a workflow. Each action is a step in the workflow.
+- Action can have inputs and outputs.
+- D-click or drag-and-drop to add an action.
+- **Think of a function call in your code.**
 
 </v-clicks>
 
 ---
-layout: fact
+layout: image
+image: ./images/pad-demo-crawl-shopee.png
 ---
 
-# ROI of Workflow Automation
+---
+layout: image
+image: ./images/pad-demo.gif
+---
 
-Companies save an average of 
-<span class="text-6xl font-bold text-green-500">15-30%</span> 
-of employee time through automation
+---
+layout: two-cols
+---
+
+# Alternatives
+
+<v-clicks>
+
+- Zapier https://zapier.com/
+  - 3000+ pre-built connectors
+  - More expensive
+- Make http://make.com/
+  - 1000+ pre-built connectors
+  - Easy to use
+  - Free tier available
+- n8n https://n8n.io/
+  - 200+ pre-built connectors
+  - More complex but also more flexible
+  - Self-hosted option available
+
+</v-clicks>
 
 ---
 layout: end
 ---
 
-# Thank You!
+# Thank you!
 
-## Questions & Discussion
-
-Contact: [quang@spiderbox.design](mailto:quang@spiderbox.design)
-GitHub: [@oclockvn](https://github.com/oclockvn)
-
+quang@spiderbox.design

@@ -1,11 +1,12 @@
 {
   "scripts": {
-    "start": "slidev",
+    "start": "slidev --open",
     "build": "slidev build",
     "export": "slidev export"
   },
   "dependencies": {
     "@iconify-json/logos": "^1.2.4",
+    "@slidev/cli": "^51.1.0",
     "@slidev/theme-default": "^0.25.0",
     "slidev-theme-penguin": "^2.3.1",
     "vite-svg-loader": "^5.1.0"
